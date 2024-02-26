@@ -88,7 +88,6 @@ function setAlarm() {
     alert("Please select a valid time");
   } else {
     document.querySelector("#AlarmList").innerHTML += `
-    <h3>Alarms</h3>
     <div class="alarm-set" id="alarm${counter}">
       <span id="span${counter}">${time}</span>
       <button id="${counter}" class="btn-delete" onClick="deleteAlarm(this.id)">Delete</button>
