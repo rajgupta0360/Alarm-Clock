@@ -10,19 +10,19 @@ This alarm clock is a single page website where user can set the alarm via given
     </li>
     <li><h4>Set Alarm</h4>
         <ul>
-            <li>User can select the hrs, mins, seconds and time period by selecting following options</li>
+            <li>User can set the alarm via hrs, mins, seconds and time period</li>
             <li>When user sets the time and click on the 'Set Alarm' button then the alarm is added to the alarm list</li>
-            <li>When the alarm goes of then it will give us alert message</li>
+            <li>When the alarm goes of then it will give alert message</li>
         </ul>
     </li>
     <li><h4>Alarms list</h4>
         <ul>
-            <li>In this section, user can see the list of all the alarms added by him</li>
+            <li>In this section, user can see the list of all the added alarms</li>
         </ul>
     </li>
     <li><h4>Delete alarm</h4>
         <ul>
-            <li>For each alarm a delete button is given when user click on delete button then alarm will delete</li>
+            <li>For each alarm a delete button is given when user click on delete button then alarm will be deleted</li>
         </ul>
     </li>
 </ul>
@@ -48,17 +48,17 @@ This alarm clock is a single page website where user can set the alarm via given
 
 ## Screenshots
 
-#### Current Time:
-<img src="/screenshots/fifthpage.png">
+### Current Time:
+<img src="/screenshots/firstpage.png">
 
-#### Setting Alarm:
+### Setting Alarm:
 <img src="/screenshots/secondpage.png">
 
-#### Selection Time Period:
+### Selection Time Period:
 <img src="/screenshots/thirdpage.png">
 
-#### Alarm is added to the alarmlist
+### Alarm is added to the alarmlist
 <img src="/screenshots/fourthpage.png">
 
-#### When alarm goes of then alert message will appear on the screen
+### When alarm goes of then alert message will appear on the screen
 <img src="/screenshots/fifthpage.png">
