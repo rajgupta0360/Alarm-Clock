@@ -6,8 +6,8 @@ const audio = new Audio("./Audio/alarm.mp3");
 let counter = 0;
 const arr = [];
 
-// function to updateTime
-function updateTime() {
+// function to displayTime
+function displayTime() {
   const now = new Date();
   let hours = now.getHours();
   let minutes = now.getMinutes();
@@ -35,14 +35,14 @@ function updateTime() {
   });
 }
 
-// function to increase updateTime function each second
-function initClock() {
-  updateTime();
-  window.setInterval("updateTime()", 1000);
+// function to update displayTime function each second
+function updateTime() {
+  displayTime();
+  window.setInterval("displayTime()", 1000);
 }
 
-// invoking function initClock
-initClock();
+// invoking function updateTime
+updateTime();
 
 // set Alarm Section
 // loop for giving option values so that user will able to select hour
