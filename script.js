@@ -117,10 +117,12 @@ stopAlarm.addEventListener("click", () => {
   stopAlarm.style.visibility = "hidden";
 });
 
+// This function save our data in localStorage
 function saveData() {
   localStorage.setItem("data", alarmList.innerHTML);
 }
 
+// This function will fetch data from local storage and insert in alarmList.innerHTML
 function showData() {
   alarmList.innerHTML = localStorage.getItem("data");
 }
